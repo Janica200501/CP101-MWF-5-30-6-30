@@ -1,0 +1,17 @@
+name = input("Janica: ")
+age = input("19: ")
+# Use an f-string to format the output
+print(f"Hello, Janica! You are 19 years old.")
+
+
+item = "orange"
+count = 10
+# Use the .format() method
+sentence = "I bought 10 orage today.".format(count, item)
+print(sentence)
+
+
+city = ("Philippines: ")
+temperature = 32
+# Use the % operator
+print("The temperature in Philippines is 32 degrees Celsius.")
